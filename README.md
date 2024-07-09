@@ -15,6 +15,9 @@
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add .` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend -m "New Message"` | Changes the last Commit message|
+| `git revert [id]` | Undoes the commit with the same ID |
+| `git reset [PARAMETER] [ID]` | Reset current HEAD to the specified Commit|
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
