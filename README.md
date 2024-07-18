@@ -17,7 +17,7 @@
 | `git commit -m "[commit message]"` | Commit changes |
 | `git commit --amend -m "New Message"` | Changes the last Commit message|
 | `git revert [id]` | Undoes the commit with the same ID |
-| `git reset [--hard, --soft] [ID]` | Reset current HEAD to the specified Commit. **Hard:** Clears and Remove Commits **Soft:** Just Remove Commits|
+| `git reset [--hard, --soft] HEAD~n` | Reset current HEAD to the specified Commit. **Hard:** Clears and Remove Commits **Soft:** Just Remove Commits|
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 ### Branching & Merging
